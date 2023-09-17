@@ -4,7 +4,7 @@ class Example
   {
     public static void main(String[] args)
     {
-      Scaner sc = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
 
       int n = sc.nextInt();
       int[] arr = new int[n];
@@ -19,7 +19,7 @@ class Example
           if(min > arr[i])
             min = arr[i];
         }
-      System.out.print("Maximum value : "+max);
+      System.out.println("Maximum value : "+max);
       System.out.print("Minimum value : "+min);
     }
   }
